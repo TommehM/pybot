@@ -1,1 +1,1 @@
-Python IRC bot by Tom McLoughlin
+A simple Python IRC bot
