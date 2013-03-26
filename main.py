@@ -11,8 +11,8 @@ myChan  = "#example" # only supports a single channel
 # Do not edit below this line
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket.connect(myIRC,myPort)
-socket.send( 'NICK ',myNick 
-)socket.send( 'USER ',myIdent, myIdent, myIdent' :',myReal'\r\n' )
+socket.send( 'NICK ',myNick )
+socket.send( 'USER ',myIdent, myIdent, myIdent' :',myReal'\r\n' )
 socket.send( 'JOIN ',myChan )
 # ok, now you can edit ^_^
 while True:
