@@ -4,7 +4,7 @@ import socket
 myNick  = "Bot"
 myIdent = "Bot"
 myReal  = "Bot"
-myIRC   = "irc.kottnet.net"
+myIRC   = "irc.example.com"
 myPort  = "6667"
 myChan  = "#TomM" # only supports a single channel
 
