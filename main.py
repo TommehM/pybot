@@ -16,9 +16,9 @@ socket.send( 'USER ',myIdent, myIdent, myIdent,' :',myReal,'\r\n' )
 socket.send( 'JOIN ',myChan )
 # ok, now you can edit ^_^
 while True:
-        server = socket.recv ( 4096 )
-    if server.find ( 'PING' ) != -1:
+        net = socket.recv ( 4096 )
+    if net.find ( 'PING' ) != -1:
         socket.send ( 'PONG ' + net.split() [ 1 ] + '\r' )
-    if server.find ( 'cookie' ) != -1:
+    if net.find ( 'cookie' ) != -1:
         socket.send ( 'PRIVMSG ',myChan,' :mmmm cookies ;)\r\n' )
 print "Bot successfully connected to IRC"
