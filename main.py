@@ -6,7 +6,7 @@ myIdent = "Bot"
 myReal  = "Bot"
 myIRC   = "irc.example.com"
 myPort  = "6667"
-myChan  = "#TomM" # only supports a single channel
+myChan  = "#example" # only supports a single channel
 
 # Do not edit below this line
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
