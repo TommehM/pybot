@@ -19,4 +19,4 @@ while True:
     if server.find ( 'PING' ) != -1:
         sock.send ( 'PONG ' + net.split() [ 1 ] + '\r' )
     if server.find ( 'cookie' ) != -1:
-        sock.send ( 'PRIVMSG ' + myChan + ' :mmmm cookies ;)\r\n' )
+        sock.send ( 'PRIVMSG ' + myChan + ' :mmm cookies ;)\r\n' )
