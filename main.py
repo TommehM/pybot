@@ -6,9 +6,9 @@ myIdent = "Bot"
 myReal  = "Bot"
 myIRC   = "irc.kottnet.net"
 myPort  = 6667
-myChan  = "#TomM" # only supports a single channel
+myChan  = "#TomM"
 # Do not edit below this line
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
 sock.connect((myIRC, myPort))
 sock.send('NICK ' + myNick)
 sock.send('USER ' + myIdent + myIdent + myIdent + ' :' + myReal + '\r\n')
